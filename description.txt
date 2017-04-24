@@ -1,0 +1,1 @@
+I want to first build a spider using scrapy that gets the top actors from IMDB, then I want to use the twitter API to get all of their twitter handles, then I want to get all of their tweets (if possible without rate limiting), and use NLTK to get the most common words they tweet. 
