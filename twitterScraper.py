@@ -115,6 +115,7 @@ def createCSVFile(twitterName, mostCommonWords):
 
 # Main function calls
 twitterList = readCSV('twitterData.csv')
+# Remove headers
 twitterList = twitterList[1:]
 counter = 1
 for element in twitterList:
